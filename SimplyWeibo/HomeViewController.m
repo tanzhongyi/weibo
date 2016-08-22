@@ -18,14 +18,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = RGBColor(227, 227, 227);
-    self.title = @"首页";
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"user"] style:UIBarButtonItemStylePlain target:self action:@selector(user)];
+//     UIButton *titleButton=[UIButton buttonWithType:UIButtonTypeCustom];
+//     [titleButton setTitle:@"首页" forState:0];
+//     [titleButton addTarget:self action:@selector(titleButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+//     UIView *titleView=[[UIView alloc]init];
+//     [titleView addSubview:titleButton];
+     
+//     UITapGestureRecognizer *tapRecognizer=[[]
+     self.navigationItem.title=@"首页";
+     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"user"] style:UIBarButtonItemStylePlain target:self action:@selector(user)];
     
 }
 -(void)user{
     
 }
-
+-(void)titleButtonAction:(UIButton *)sender{
+     NSLog(@"面对疾风吧");
+}
 
 
 - (void)didReceiveMemoryWarning {

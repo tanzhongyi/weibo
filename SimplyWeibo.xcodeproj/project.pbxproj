@@ -29,6 +29,16 @@
 		08D93BB71D5AB99A00941C86 /* DATA.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D93BB61D5AB99A00941C86 /* DATA.m */; };
 		08D93BBA1D5AC37E00941C86 /* MoreSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D93BB91D5AC37E00941C86 /* MoreSetViewController.m */; };
 		08D93BBD1D5AD36E00941C86 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D93BBC1D5AD36E00941C86 /* User.m */; };
+		0F3F7AA71D66A54C0003E77F /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F7AA61D66A54C0003E77F /* SelectViewController.m */; };
+		0F3F7AAB1D66A5970003E77F /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F7AA91D66A5970003E77F /* PhotoCollectionViewCell.m */; };
+		0F3F7AAC1D66A5970003E77F /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F7AAA1D66A5970003E77F /* PhotoCollectionViewCell.xib */; };
+		0F3F7AAF1D66A5C10003E77F /* PhodoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F7AAE1D66A5C10003E77F /* PhodoModel.m */; };
+		0F3F7AB31D66E6760003E77F /* photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F7AB01D66E6760003E77F /* photo@3x.png */; };
+		0F3F7AB41D66E6760003E77F /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F7AB11D66E6760003E77F /* selected@3x.png */; };
+		0F3F7AB51D66E6760003E77F /* unSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F7AB21D66E6760003E77F /* unSelected@3x.png */; };
+		0F3F7ABC1D67039B0003E77F /* EmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F7ABA1D67039B0003E77F /* EmojiCollectionViewCell.m */; };
+		0F3F7ABD1D67039B0003E77F /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F7ABB1D67039B0003E77F /* EmojiCollectionViewCell.xib */; };
+		0F3F7AC01D6705EC0003E77F /* EmojiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F7ABF1D6705EC0003E77F /* EmojiModel.m */; };
 		0F46CB9E1D603A4600BB13CB /* FootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F46CB9D1D603A4600BB13CB /* FootView.m */; };
 		0F4731201D615F8E0037B823 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F47311E1D615F8E0037B823 /* 1.png */; };
 		0F4731211D615F8E0037B823 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F47311F1D615F8E0037B823 /* 2.png */; };
@@ -115,6 +125,21 @@
 		08D93BB91D5AC37E00941C86 /* MoreSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreSetViewController.m; sourceTree = "<group>"; };
 		08D93BBB1D5AD36E00941C86 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		08D93BBC1D5AD36E00941C86 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0F3F7AA51D66A54C0003E77F /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		0F3F7AA61D66A54C0003E77F /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		0F3F7AA81D66A5970003E77F /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		0F3F7AA91D66A5970003E77F /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		0F3F7AAA1D66A5970003E77F /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		0F3F7AAD1D66A5C10003E77F /* PhodoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhodoModel.h; sourceTree = "<group>"; };
+		0F3F7AAE1D66A5C10003E77F /* PhodoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhodoModel.m; sourceTree = "<group>"; };
+		0F3F7AB01D66E6760003E77F /* photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@3x.png"; sourceTree = "<group>"; };
+		0F3F7AB11D66E6760003E77F /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
+		0F3F7AB21D66E6760003E77F /* unSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unSelected@3x.png"; sourceTree = "<group>"; };
+		0F3F7AB91D67039B0003E77F /* EmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		0F3F7ABA1D67039B0003E77F /* EmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		0F3F7ABB1D67039B0003E77F /* EmojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		0F3F7ABE1D6705EC0003E77F /* EmojiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiModel.h; sourceTree = "<group>"; };
+		0F3F7ABF1D6705EC0003E77F /* EmojiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiModel.m; sourceTree = "<group>"; };
 		0F46CB9C1D603A4600BB13CB /* FootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootView.h; sourceTree = "<group>"; };
 		0F46CB9D1D603A4600BB13CB /* FootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootView.m; sourceTree = "<group>"; };
 		0F47311E1D615F8E0037B823 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
@@ -278,6 +303,9 @@
 				08091D5B1D5829E700EE9F19 /* ViewController.m */,
 				0F4731221D61BF910037B823 /* Assets .xcassets */,
 				08184C9E1D59D3D800DC1CC3 /* navigationbar_back@2x.png */,
+				0F3F7AB01D66E6760003E77F /* photo@3x.png */,
+				0F3F7AB11D66E6760003E77F /* selected@3x.png */,
+				0F3F7AB21D66E6760003E77F /* unSelected@3x.png */,
 				08184C921D59894C00DC1CC3 /* cut@2x.png */,
 				08184C931D59894C00DC1CC3 /* cut.png */,
 				08184C941D59894C00DC1CC3 /* cut@3x.png */,
@@ -341,6 +369,25 @@
 			name = "设置";
 			sourceTree = "<group>";
 		};
+		0F3F7AA41D66A3680003E77F /* fsvc */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F7AA51D66A54C0003E77F /* SelectViewController.h */,
+				0F3F7AA61D66A54C0003E77F /* SelectViewController.m */,
+				0F3F7AA81D66A5970003E77F /* PhotoCollectionViewCell.h */,
+				0F3F7AA91D66A5970003E77F /* PhotoCollectionViewCell.m */,
+				0F3F7AAA1D66A5970003E77F /* PhotoCollectionViewCell.xib */,
+				0F3F7AAD1D66A5C10003E77F /* PhodoModel.h */,
+				0F3F7AAE1D66A5C10003E77F /* PhodoModel.m */,
+				0F3F7AB91D67039B0003E77F /* EmojiCollectionViewCell.h */,
+				0F3F7ABA1D67039B0003E77F /* EmojiCollectionViewCell.m */,
+				0F3F7ABE1D6705EC0003E77F /* EmojiModel.h */,
+				0F3F7ABF1D6705EC0003E77F /* EmojiModel.m */,
+				0F3F7ABB1D67039B0003E77F /* EmojiCollectionViewCell.xib */,
+			);
+			name = fsvc;
+			sourceTree = "<group>";
+		};
 		0F58B82F1D62A33A000C440A /* 发送微博 */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +403,7 @@
 				0F58B83D1D62A44B000C440A /* SopCastViewController.m */,
 				0F58B83F1D62A476000C440A /* transmitMoreViewController.h */,
 				0F58B8401D62A476000C440A /* transmitMoreViewController.m */,
+				0F3F7AA41D66A3680003E77F /* fsvc */,
 			);
 			name = "发送微博";
 			sourceTree = "<group>";
@@ -548,9 +596,14 @@
 				0FBD2E4B1D5B0F97009A2E20 /* MyTableViewCell.xib in Resources */,
 				08184C911D59858A00DC1CC3 /* my_background.png in Resources */,
 				08184C961D59894C00DC1CC3 /* cut.png in Resources */,
+				0F3F7AB41D66E6760003E77F /* selected@3x.png in Resources */,
+				0F3F7ABD1D67039B0003E77F /* EmojiCollectionViewCell.xib in Resources */,
 				08184C971D59894C00DC1CC3 /* cut@3x.png in Resources */,
 				08184C951D59894C00DC1CC3 /* cut@2x.png in Resources */,
 				08184C9F1D59D3D800DC1CC3 /* navigationbar_back@2x.png in Resources */,
+				0F3F7AB51D66E6760003E77F /* unSelected@3x.png in Resources */,
+				0F3F7AB31D66E6760003E77F /* photo@3x.png in Resources */,
+				0F3F7AAC1D66A5970003E77F /* PhotoCollectionViewCell.xib in Resources */,
 				08091D5F1D5829E700EE9F19 /* Main.storyboard in Resources */,
 				0F4731201D615F8E0037B823 /* 1.png in Resources */,
 			);
@@ -629,11 +682,14 @@
 				0FBD2E651D5B2E3B009A2E20 /* aboutweiboViewController.m in Sources */,
 				0F58B83E1D62A44B000C440A /* SopCastViewController.m in Sources */,
 				08D93BBD1D5AD36E00941C86 /* User.m in Sources */,
+				0F3F7AA71D66A54C0003E77F /* SelectViewController.m in Sources */,
 				0FBD2E4A1D5B0F97009A2E20 /* MyTableViewCell.m in Sources */,
 				08D93BBA1D5AC37E00941C86 /* MoreSetViewController.m in Sources */,
 				0FBC8E241D5DCDE40099F943 /* AddFriendViewController.m in Sources */,
 				08184CA31D59D5CC00DC1CC3 /* AboutViewController.m in Sources */,
 				08184CA61D59E83800DC1CC3 /* WeiboViewController.m in Sources */,
+				0F3F7AC01D6705EC0003E77F /* EmojiModel.m in Sources */,
+				0F3F7AAF1D66A5C10003E77F /* PhodoModel.m in Sources */,
 				08091D5C1D5829E700EE9F19 /* ViewController.m in Sources */,
 				08091D591D5829E700EE9F19 /* AppDelegate.m in Sources */,
 				0FBD2E5F1D5B2D55009A2E20 /* FeedbackViewController.m in Sources */,
@@ -647,11 +703,13 @@
 				08091D561D5829E700EE9F19 /* main.m in Sources */,
 				0FBD2E561D5B2CE2009A2E20 /* informViewController.m in Sources */,
 				0FBD2E501D5B2C8C009A2E20 /* accountViewController.m in Sources */,
+				0F3F7ABC1D67039B0003E77F /* EmojiCollectionViewCell.m in Sources */,
 				0FE8536E1D5C2C3900610EB0 /* WebViewViewController.m in Sources */,
 				0F58B8351D62A3D2000C440A /* transmitImageViewController.m in Sources */,
 				0FBD2E5C1D5B2D26009A2E20 /* SetupViewController.m in Sources */,
 				08184C9D1D59C61300DC1CC3 /* SettingViewController.m in Sources */,
 				0F46CB9E1D603A4600BB13CB /* FootView.m in Sources */,
+				0F3F7AAB1D66A5970003E77F /* PhotoCollectionViewCell.m in Sources */,
 				0F58B8411D62A476000C440A /* transmitMoreViewController.m in Sources */,
 				0FBD2E591D5B2CF9009A2E20 /* PrivacyViewController.m in Sources */,
 				0F58B8321D62A3C3000C440A /* transmitTextViewController.m in Sources */,

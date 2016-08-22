@@ -58,15 +58,7 @@
 }
 - (IBAction)senderWeiboButton:(UIButton *)sender {
     NSString *text = self.sendMessageTextField.text;
-//    text = [text stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
-//     [WBHttpRequest requestWithAccessToken:self.accessLabel.text url:@"https://api.weibo.com/oauth2/revokeoauth2" httpMethod:@"POST" params:@{@"access_token":text} delegate:self withTag:@"101"];
-   
-//    WBAuthorizeRequest *authrequest = [WBAuthorizeRequest request];
-//    authrequest.redirectURI = KRedirectURI;
-//    authrequest.scope = @"all";
-//    
-//    WBSendMessageToWeiboRequest *request = [WBSendMessageToWeiboRequest requestWithMessage:[self messageObject] authInfo:authrequest access_token:self.accessLabel.text];
-//    [WeiboSDK sendRequest:request];
+
 }
 -(WBMessageObject *)messageObject{
     WBMessageObject *message = [WBMessageObject message];    
